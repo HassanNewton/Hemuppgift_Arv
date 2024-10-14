@@ -37,6 +37,11 @@
             // Return the number of pins taken
             return take;
         }
-
+/*Om det finns 7 pinnar kvar:
+7 % 3 ger 1.
+Då tar datorn 1 pinne, vilket lämnar 6 pinnar kvar (som är en multipel av 3).
+Om det finns 5 pinnar kvar:
+5 % 3 ger 2.
+Då tar datorn 2 pinnar, och lämnar 3 pinnar kvar (en multipel av 3).*/
     }
 }
